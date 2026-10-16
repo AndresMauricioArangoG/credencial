@@ -2,7 +2,19 @@
 * {
     box-sizing: border-box;
 }
+.foto {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 20px auto;
+}
 
+.foto img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 body {
     margin: 0;
     background-color: #eeeeee;
